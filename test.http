@@ -1,0 +1,44 @@
+
+@baseUrl = http://localhost:3000/api
+
+# @name getProflle
+GET {{baseUrl}}/profile 
+
+###
+# @name getChannels
+GET {{baseUrl}}/channels
+
+###
+# @name getChanneFeeds
+GET {{baseUrl}}/feeds
+
+###
+# @name addNewChannel
+POST {{baseUrl}}/channels
+Content-Type: application/json
+
+{
+    "name": "Light"
+}
+
+###
+# @name updateChannelFeeds
+POST {{baseUrl}}/channel/3/feeds
+Content-Type: application/json
+
+{
+    "value": 55
+}
+
+###
+# @name addNewChannel
+PATCH {{baseUrl}}/channels/3
+Content-Type: application/json
+
+{
+    "name": "Light %RH"
+}
+
+###
+# @name remove
+DELETE {{baseUrl}}/channels/3

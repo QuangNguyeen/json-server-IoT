@@ -1,42 +1,49 @@
 {
-    "channel": {
+    "profile": {
         "id": 1384145,
         "name": "IoT Project",
-        "field1": "Temperature",
-        "field2": "Humidity",
-        "field3": "Light",
-        "field4": "Field 4",
-        "field5": "Field 5",
-        "field6": "Field 6",
-        "field7": "Field 7",
-        "field8": "Field 8",
-        "createdAt": "2021-05-08T02:00:41Z",
-        "updatedAt": "2021-07-19T03:55:21Z",
-        "entryID": 485
+        "author": "QuangNguyeen",
+        "createdAt": "2021-07-19_15:40"
     },
-    "feeds": [{
-            "createdAt": "2021-07-19T05:51:02Z",
-            "entryID": 484,
-            "field1": 123,
-            "field2": 20,
-            "field3": -1,
-            "field4": -1,
-            "field5": -1,
-            "field6": -1,
-            "field7": -1,
-            "field8": -1
+    "channels": [{
+            "id": 1,
+            "name": "Temperature",
+            "createAt": 1626684805243
         },
         {
-            "createdAt": "2021-07-19T05:53:55Z",
-            "entryID": 485,
-            "field1": 22,
-            "field2": 22,
-            "field3": -1,
-            "field4": -1,
-            "field5": -1,
-            "field6": -1,
-            "field7": -1,
-            "field8": -1
+            "id": 2,
+            "name": "Humidity",
+            "createAt": 1626684805243
+        },
+        {
+            "name": "Light %RH",
+            "createdAt": 1626684550450,
+            "id": 3
+        }
+    ],
+    "feeds": [{
+            "id": 1,
+            "value": 30,
+            "channelId": 1,
+            "createAt": 1626684805243
+        },
+        {
+            "id": 2,
+            "value": 35,
+            "channelId": 1,
+            "createAt": 1626684805243
+        },
+        {
+            "id": 1,
+            "value": 60,
+            "channelId": 2,
+            "createAt": 1626684805243
+        },
+        {
+            "value": 55,
+            "createdAt": 1626684805243,
+            "channelId": "3",
+            "id": 3
         }
     ]
 }
