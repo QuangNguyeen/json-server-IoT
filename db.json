@@ -1,0 +1,42 @@
+{
+    "channel": {
+        "id": 1384145,
+        "name": "IoT Project",
+        "field1": "Temperature",
+        "field2": "Humidity",
+        "field3": "Light",
+        "field4": "Field 4",
+        "field5": "Field 5",
+        "field6": "Field 6",
+        "field7": "Field 7",
+        "field8": "Field 8",
+        "createdAt": "2021-05-08T02:00:41Z",
+        "updatedAt": "2021-07-19T03:55:21Z",
+        "entryID": 485
+    },
+    "feeds": [{
+            "createdAt": "2021-07-19T05:51:02Z",
+            "entryID": 484,
+            "field1": 123,
+            "field2": 20,
+            "field3": -1,
+            "field4": -1,
+            "field5": -1,
+            "field6": -1,
+            "field7": -1,
+            "field8": -1
+        },
+        {
+            "createdAt": "2021-07-19T05:53:55Z",
+            "entryID": 485,
+            "field1": 22,
+            "field2": 22,
+            "field3": -1,
+            "field4": -1,
+            "field5": -1,
+            "field6": -1,
+            "field7": -1,
+            "field8": -1
+        }
+    ]
+}
